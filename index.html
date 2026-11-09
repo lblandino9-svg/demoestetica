@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atelier Petalo | Centro estetico a Brera, Milano</title>
+  <meta name="description" content="Manicure, trattamenti viso ed epilazione laser nel cuore di Brera. Prenota il tuo appuntamento online in meno di un minuto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] } } } };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    :focus-visible { outline: 2px solid #e11d48; outline-offset: 3px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+  </style>
+</head>
+<body class="bg-stone-50 text-gray-900 antialiased">
+
+  <!-- Navigazione -->
+  <header class="absolute inset-x-0 top-0 z-20">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+      <a href="#" class="text-lg font-semibold tracking-tight">Atelier Petalo</a>
+      <div class="hidden items-center gap-8 text-sm font-medium text-gray-700 sm:flex">
+        <a href="#servizi" class="transition hover:text-rose-600">Servizi</a>
+        <a href="#prenota" class="transition hover:text-rose-600">Prenota</a>
+        <a href="#contatti" class="transition hover:text-rose-600">Dove siamo</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative isolate overflow-hidden">
+    <img
+      src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=60"
+      alt=""
+      class="absolute inset-0 -z-20 h-full w-full scale-110 object-cover blur-sm"
+    >
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-stone-50/80 via-stone-50/70 to-stone-50"></div>
+
+    <div class="mx-auto max-w-6xl px-6 pb-28 pt-40 sm:pb-36 sm:pt-52">
+      <h1 class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight sm:text-6xl sm:leading-[1.05]">
+        Una pelle che respira, mani curate e un’ora tutta per te.
+      </h1>
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-gray-700">
+        Nel cuore di Brera, trattamenti su misura eseguiti da estetiste qualificate, con prodotti dermatologicamente testati. Risultati visibili già dalla prima seduta, in un ambiente dove rallentare è la regola.
+      </p>
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a href="#prenota" class="rounded-2xl bg-rose-600 px-7 py-4 text-base font-semibold text-white shadow-sm transition hover:bg-rose-700">
+          Prenota un appuntamento
+        </a>
+        <a href="#servizi" class="rounded-2xl bg-white/80 px-7 py-4 text-base font-medium text-gray-900 shadow-sm transition hover:bg-white">
+          Scopri i trattamenti
+        </a>
+      </div>
+      <p class="mt-8 text-sm text-gray-600">Prima consulenza gratuita &nbsp;•&nbsp; Disdetta gratuita fino a 24 ore prima</p>
+    </div>
+  </section>
+
+  <!-- Servizi -->
+  <section id="servizi" class="mx-auto max-w-6xl scroll-mt-8 px-6 py-24">
+    <div class="max-w-2xl">
+      <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Tre trattamenti, fatti con la cura che meritano</h2>
+      <p class="mt-4 text-lg leading-relaxed text-gray-600">Ogni percorso parte da una consulenza: ascoltiamo cosa ti serve, poi scegliamo insieme tecnica e prodotti.</p>
+    </div>
+
+    <div class="mt-14 grid gap-6 md:grid-cols-3">
+      <!-- Manicure -->
+      <article class="rounded-2xl border border-stone-200 bg-white p-8 shadow-sm">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3c2.5 3 4 5.2 4 7.5a4 4 0 0 1-8 0C8 8.200 9.500 6 12 3Z"/>
+            <path d="M8 21h8"/>
+            <path d="M12 14.500V21"/>
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold">Manicure</h3>
+        <p class="mt-3 leading-relaxed text-gray-600">Cura delle cuticole, limatura su misura e smalto semipermanente che resiste fino a tre settimane senza opacizzarsi. Nail art su richiesta, anche minimal.</p>
+        <p class="mt-6 text-sm font-medium text-gray-900">Da 28 € <span class="font-normal text-gray-500">· 45 minuti</span></p>
+      </article>
+
+      <!-- Viso -->
+      <article class="rounded-2xl border border-stone-200 bg-white p-8 shadow-sm">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M8.500 14.500c1 1.200 2.200 1.800 3.500 1.800s2.500-.6 3.500-1.800"/>
+            <path d="M9 10h.01M15 10h.01"/>
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold">Trattamenti viso</h3>
+        <p class="mt-3 leading-relaxed text-gray-600">Pulizia profonda, idratazione intensiva o peeling delicato: partiamo dall’analisi della tua pelle per restituirle luminosità e tono, senza irritazioni.</p>
+        <p class="mt-6 text-sm font-medium text-gray-900">Da 55 € <span class="font-normal text-gray-500">· 60 minuti</span></p>
+      </article>
+
+      <!-- Laser -->
+      <article class="rounded-2xl border border-stone-200 bg-white p-8 shadow-sm">
+        <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-50 text-rose-600">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M13 2 4.500 13.500H11L10 22l8.500-11.500H12L13 2Z"/>
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold">Epilazione laser</h3>
+        <p class="mt-3 leading-relaxed text-gray-600">Laser a diodo con raffreddamento integrato per una seduta confortevole su ogni fototipo. Dopo un ciclo completo, la pelle resta liscia a lungo.</p>
+        <p class="mt-6 text-sm font-medium text-gray-900">Da 39 € <span class="font-normal text-gray-500">· 30 minuti</span></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Prenotazioni -->
+  <section id="prenota" class="mx-auto max-w-6xl scroll-mt-8 px-6 pb-24">
+    <div class="grid items-center gap-12 rounded-2xl border border-stone-200 bg-white p-8 shadow-sm sm:p-12 lg:grid-cols-2">
+      <div>
+        <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Scegli il giorno, al resto pensiamo noi</h2>
+        <p class="mt-4 text-lg leading-relaxed text-gray-600">Indica trattamento e data: ti mostriamo subito gli orari liberi e confermiamo entro un’ora, anche via WhatsApp.</p>
+        <ul class="mt-8 space-y-4 text-gray-700">
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mt-0.5 h-5 w-5 shrink-0 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.500 4.500 4.500L19 7.500"/></svg>
+            Nessun anticipo richiesto
+          </li>
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mt-0.5 h-5 w-5 shrink-0 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.500 4.500 4.500L19 7.500"/></svg>
+            Sposta o annulla gratis fino a 24 ore prima
+          </li>
+          <li class="flex items-start gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mt-0.5 h-5 w-5 shrink-0 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.500 4.500 4.500L19 7.500"/></svg>
+            Promemoria il giorno prima, così non ti sfugge
+          </li>
+        </ul>
+      </div>
+
+      <div class="rounded-2xl bg-stone-50 p-6 shadow-sm ring-1 ring-stone-200 sm:p-8">
+        <div id="booking-form" class="space-y-5" role="group" aria-label="Verifica disponibilità">
+          <div>
+            <label for="trattamento" class="mb-2 block text-sm font-medium text-gray-900">Trattamento</label>
+            <select id="trattamento" class="w-full rounded-2xl border border-stone-300 bg-white px-4 py-3.5 text-base text-gray-900 shadow-sm focus:border-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-200">
+              <option value="">Seleziona un trattamento</option>
+              <option>Manicure semipermanente</option>
+              <option>Manicure classica</option>
+              <option>Pulizia viso profonda</option>
+              <option>Trattamento viso idratante</option>
+              <option>Epilazione laser gambe</option>
+              <option>Epilazione laser ascelle e inguine</option>
+            </select>
+          </div>
+          <div>
+            <label for="data" class="mb-2 block text-sm font-medium text-gray-900">Data</label>
+            <input id="data" type="date" class="w-full rounded-2xl border border-stone-300 bg-white px-4 py-3.5 text-base text-gray-900 shadow-sm focus:border-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-200">
+          </div>
+          <button id="verifica" type="button" class="w-full rounded-2xl bg-rose-600 px-6 py-4 text-base font-semibold text-white shadow-sm transition hover:bg-rose-700">
+            Verifica disponibilità
+          </button>
+          <p id="esito" class="hidden rounded-2xl px-4 py-3 text-sm leading-relaxed" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contatti" class="scroll-mt-8 border-t border-stone-200 bg-white">
+    <div class="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-3">
+      <div>
+        <p class="text-lg font-semibold tracking-tight">Atelier Petalo</p>
+        <p class="mt-3 max-w-xs leading-relaxed text-gray-600">Centro estetico nel quartiere di Brera. Trattamenti su appuntamento, in un ambiente tranquillo e riservato.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Dove siamo</h3>
+        <address class="mt-3 not-italic leading-relaxed text-gray-600">
+          Via dei Fiori Chiari 18<br>
+          Brera, 20121 Milano
+        </address>
+        <a href="https://www.google.com/maps/search/?api=1&query=Via+dei+Fiori+Chiari+18+Milano" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-rose-600 transition hover:text-rose-700">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21Z"/><circle cx="12" cy="9.500" r="2.500"/></svg>
+          Apri su Google Maps
+        </a>
+      </div>
+      <div>
+        <h3 class="font-semibold">Orari di apertura</h3>
+        <dl class="mt-3 space-y-1.5 text-gray-600">
+          <div class="flex justify-between gap-6"><dt>Lunedì – Venerdì</dt><dd class="font-medium text-gray-900">9:30 – 19:30</dd></div>
+          <div class="flex justify-between gap-6"><dt>Sabato</dt><dd class="font-medium text-gray-900">9:00 – 18:00</dd></div>
+          <div class="flex justify-between gap-6"><dt>Domenica</dt><dd class="font-medium text-gray-900">Chiuso</dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="border-t border-stone-200 py-6 text-center text-sm text-gray-500">© 2026 Atelier Petalo. Tutti i diritti riservati.</div>
+  </footer>
+
+  <script>
+    (function () {
+      var data = document.getElementById('data');
+      var trattamento = document.getElementById('trattamento');
+      var esito = document.getElementById('esito');
+      var oggi = new Date();
+      data.min = oggi.getFullYear() + '-' + String(oggi.getMonth() + 1).padStart(2, '0') + '-' + String(oggi.getDate()).padStart(2, '0');
+
+      function mostra(testo, ok) {
+        esito.textContent = testo;
+        esito.className = 'rounded-2xl px-4 py-3 text-sm leading-relaxed ' +
+          (ok ? 'bg-emerald-50 text-emerald-900' : 'bg-rose-50 text-rose-900');
+      }
+
+      document.getElementById('verifica').addEventListener('click', function () {
+        if (!trattamento.value) { mostra('Scegli un trattamento per continuare.', false); trattamento.focus(); return; }
+        if (!data.value) { mostra('Seleziona una data per vedere gli orari liberi.', false); data.focus(); return; }
+        var giorno = new Date(data.value + 'T12:00:00');
+        if (giorno.getDay() === 0) { mostra('La domenica siamo chiusi. Prova con un altro giorno, da lunedì a sabato.', false); return; }
+        var formattata = giorno.toLocaleDateString('it-IT', { weekday: 'long', day: 'numeric', month: 'long' });
+        mostra('Buone notizie: per ' + trattamento.value + ' ' + formattata + ' abbiamo posto alle 10:30, 14:00 e 16:30. Ti contatteremo per confermare.', true);
+      });
+    })();
+  </script>
+</body>
+</html>
